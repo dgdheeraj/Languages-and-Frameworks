@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Learnings">
+    <file alias="qmldir">C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Learnings/qmldir</file>
+  </qresource>
+</RCC>
+

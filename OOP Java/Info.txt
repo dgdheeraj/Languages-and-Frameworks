@@ -1,0 +1,72 @@
+COMPILING
+
+Java code is first compiled into Byte code (.class files) by the java compiler
+This byte code is platform independent. The byte code is executed by Java Virtual Machine
+which is platform dependant
+
+javac <ClassName.java> -> Gives byte code
+java <ClassName> -> Executes the byte code
+
+
+OOP
+
+Based off GFG Java OOP - https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
+
+Access modifiers
+public -> all classes in application
+private -> only the class it is defined in
+protected -> within the package, and within any subclasses
+default -> same class and same package only
+
+<> Abstraction
+Hiding essential detail and showing only necessary details
+Non essential details not shown to user
+eg: car is viewed as a car not individual components
+
+Implemented using abstract classes and interface
+final keyword refers to a function that cannot be overriden by subclasses
+
+
+<> Encapsulation
+bundling data and methods that operate on the data
+declare data as private and public methods to get and set it
+
+
+<> Inheritance
+Inherit features of another class
+Helps for reusability, method overriding, abstraction
+
+No multiple inheritance allowed in java due to ambiguity of method resolution
+
+IS a Relationship 
+When class extends another class
+eg: Lady is a Mother (class Mother extends class Lady)
+
+Has a Relationship
+when a class creates an object of another class in it -> Called Composition
+eg: Mother has a child (class Mother instantiates an object of type child in it)
+
+
+<> Polymorphism
+Ability of an object to beahve differently based on different circumstances
+One interface many implementations (in general, not java interface)
+
+Compile Time Polymorphism - Method Overloading (or operator overloading but not supported in java)
+Run Time Polymorphism - Method overriding
+No operator overloading in Java
+
+
+DESIGN PATTERN
+
+Three types of design patterns
+Creational - Used for class instantiation
+Structural - These patterns are designed with regard to a class's structure and composition. 
+             The main goal of most of these patterns is to increase the functionality of the class(es) involved
+             , without changing much of its composition.
+Behavorial - These patterns are designed depending on how one class communicates with others
+
+Singleton
+Creational design pattern that lets you have only one instance of the class
+Provides a global access point to the instance. Useful in controlling access to a shared resource
+like file or dB.
+

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/Learnings/">
+    <file alias="Main.qml">C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/Learnings/Main.qml</file>
+    <file alias="07_Main.qml">C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/Learnings/07_Main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-61731fc01ccb073ea0d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Learnings",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-373d9420da86dd808cd9.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-20d109f94edf5a361bf8.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-e0d12657606fe54e96b7.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6ad080719caf45eb9b72.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLearnings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLearnings-Debug-650e5740caac06186837.json",
+					"name" : "appLearnings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLearnings_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLearnings_autogen-Debug-489d081194d6e055cce8.json",
+					"name" : "appLearnings_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLearnings_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLearnings_autogen_timestamp_deps-Debug-a9f8726d398e10b3ffe6.json",
+					"name" : "appLearnings_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLearnings_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLearnings_qmlimportscan-Debug-8cf9909529512760c4f9.json",
+					"name" : "appLearnings_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLearnings_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLearnings_qmllint-Debug-59bbec3de9ce83a38b55.json",
+					"name" : "appLearnings_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLearnings_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLearnings_qmllint_json-Debug-b67681cab976264ba49f.json",
+					"name" : "appLearnings_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLearnings_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLearnings_qmllint_module-Debug-5796fff9c7a9a14eb82e.json",
+					"name" : "appLearnings_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLearnings_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLearnings_qmltyperegistration-Debug-1a36a0c77ceac4100d10.json",
+					"name" : "appLearnings_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appLearnings_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appLearnings_tooling-Debug-7cd7883bf99e2f96ee86.json",
+					"name" : "appLearnings_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug",
+		"source" : "C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/Learnings"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

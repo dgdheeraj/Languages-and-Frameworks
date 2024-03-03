@@ -1,0 +1,37 @@
+# ninja log v5
+22	189	7279402544876938	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/appLearnings_autogen/timestamp	4516f06755f4e47d
+23	145	7279422723679770	Learnings/Main.qml	3f39d1b47586b40b
+588	788	7279397680391413	applearnings_qmltyperegistrations.cpp	ae880b6d10066aa2
+40	175	7279422724021132	.qt_plugins/Qt6_QmlPlugins_Imports_appLearnings.cmake	7af064bee348c42a
+199	242	7279402544188521	meta_types/appLearnings_json_file_list.txt	d0d0425751a9a785
+23	145	7279422723679770	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Learnings/Main.qml	3f39d1b47586b40b
+2	136	7279397674688871	.rcc/qmlcache/appLearnings_qmlcache_loader.cpp	5eb61ca8979b0063
+588	788	7279397680391413	Learnings/appLearnings.qmltypes	ae880b6d10066aa2
+40	175	7279422724021132	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appLearnings.cmake	7af064bee348c42a
+2	136	7279397674688871	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appLearnings_qmlcache_loader.cpp	5eb61ca8979b0063
+22	189	7279402544876938	appLearnings_autogen/timestamp	4516f06755f4e47d
+506	588	7279397679238656	meta_types/qt6applearnings_debug_metatypes.json.gen	50014ee83095e4b0
+22	189	7279402544876938	appLearnings_autogen/mocs_compilation.cpp	4516f06755f4e47d
+22	189	7279402544876938	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/appLearnings_autogen/mocs_compilation.cpp	4516f06755f4e47d
+399	469	7279397677990072	.rcc/qrc_qmake_Learnings.cpp	476b7a0382967403
+399	469	7279397677990072	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qrc_qmake_Learnings.cpp	476b7a0382967403
+588	788	7279397680391413	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Learnings/appLearnings.qmltypes	ae880b6d10066aa2
+175	259	7279422724852018	.rcc/qrc_appLearnings_raw_qml_0.cpp	4b443a14583812a1
+175	259	7279422724852018	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qrc_appLearnings_raw_qml_0.cpp	4b443a14583812a1
+199	242	7279402544188521	meta_types/appLearnings_json_file_list.txt.timestamp	d0d0425751a9a785
+199	242	7279402544188521	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/meta_types/appLearnings_json_file_list.txt	d0d0425751a9a785
+199	242	7279402544188521	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/meta_types/appLearnings_json_file_list.txt.timestamp	d0d0425751a9a785
+506	588	7279397679238656	meta_types/qt6applearnings_debug_metatypes.json	50014ee83095e4b0
+506	588	7279397679238656	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/meta_types/qt6applearnings_debug_metatypes.json.gen	50014ee83095e4b0
+4044	4519	7279422767444893	appLearnings.exe	6fc459d1e76051a7
+506	588	7279397679238656	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/meta_types/qt6applearnings_debug_metatypes.json	50014ee83095e4b0
+588	788	7279397680391413	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/applearnings_qmltyperegistrations.cpp	ae880b6d10066aa2
+184	418	7279422726320915	.rcc/qmlcache/appLearnings_Main_qml.cpp	69e1005679b5aa4d
+184	418	7279422726320915	C:/Personal/Interview Resources/Languages and Frameworks/Qt QML/build-Learnings-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/.rcc/qmlcache/appLearnings_Main_qml.cpp	69e1005679b5aa4d
+1047	1258	7279397685864949	CMakeFiles/appLearnings.dir/.rcc/qrc_qmake_Learnings.cpp.obj	295ca27768debe4e
+428	605	7279422728392861	CMakeFiles/appLearnings.dir/.rcc/qrc_appLearnings_raw_qml_0.cpp.obj	ba564fd7b430269
+243	8918	7279402632183228	CMakeFiles/appLearnings.dir/main.cpp.obj	ff03a41f7174a124
+1011	1287	7279397686243310	CMakeFiles/appLearnings.dir/appLearnings_autogen/mocs_compilation.cpp.obj	497788df1afad5e4
+1018	4790	7279397721218251	CMakeFiles/appLearnings.dir/applearnings_qmltyperegistrations.cpp.obj	498a8fd8b44e79d0
+419	4044	7279422762778606	CMakeFiles/appLearnings.dir/.rcc/qmlcache/appLearnings_Main_qml.cpp.obj	cb1680e4e215be21
+1036	6172	7279397735080406	CMakeFiles/appLearnings.dir/.rcc/qmlcache/appLearnings_qmlcache_loader.cpp.obj	e0ea7a25367a24ef
