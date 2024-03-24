@@ -88,6 +88,9 @@ Stages when setting up Lambda
 `Cold Start` refers to the first two steps above where setup is taking place
 After the execution completes, the execution environment is frozen. Lambda service retains the execution environment for a non-deterministic period of time for performance. During this time, if another request arrives for the same function, the service may reuse the environment. This second request typically finishes more quickly, since the execution environment already exists and it’s not necessary to download the code and run the initialization code. This is called a `warm start`.
 
+## IAM
+Identity and Access Management
+
 ## References
 - [AWS EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
 - [AWS ELB](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html)
@@ -95,3 +98,5 @@ After the execution completes, the execution environment is frozen. Lambda servi
 - [AWS S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
 - [AWS EBS](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html)
 - [EBS Docker](https://docker-curriculum.com/#docker-on-aws)
+- [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+- [AWS Lambda Cold Start](https://docs.aws.amazon.com/lambda/latest/operatorguide/execution-environments.html)
