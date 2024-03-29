@@ -4,7 +4,7 @@
 
 
 ## What is Docker?
-Tool that allows develoeprs to deploy applications in a sandbox (container) to run on the host OS. Key advantage of Docker is to package application with al of its dependencies into a standardized unit. Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources
+Tool that allows developers to deploy applications in a sandbox (container) to run on the host OS. Key advantage of Docker is to package application with all of its dependencies into a standardized unit. Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources
 
 ## Containers?
 Virtual Machines have high overhead spent virtualizing hardware for a guest OS to use.
