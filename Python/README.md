@@ -303,6 +303,8 @@ but since A can't be there twice, the order is D, B, A, C
 But this algorithm varying in different ways and showing different behaviours at different times. Due to this inconsistency, L3 Linearization Algorithm was introduced
 
 #### L3 Linearization
+
+[Link Here for Detailed Explanation](https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc)
 Uses new-style classes
 Removes inconsistency created by DLR Algorithm
 
@@ -347,6 +349,39 @@ class E(C,D):
 	pass
 ```
 Here, Class E inherits from C and D, both C and D inherit from A and B but in different order, this causes ambiguity
+
+Based on the [link](https://medium.com/technology-nineleaps/python-method-resolution-order-4fd41d2fcc) here, the MRO would be:
+```
+O = Object
+class F(O): pass
+class E(O): pass
+class D(O): pass
+class C(D,F): pass
+class B(D,E): pass
+class A(B,C): pass
+```
+
+```
+L[F] = F O
+L[E] = E O
+L[D] = D O
+
+L[C] = C + merge(L[D],L[F], D F)
+     = C + merge(D O, F O, D F)
+     = D + F + O
+
+L[B] = B + merge(L[D],L[E], DE)
+     = B + merge(DO, EO, DE) 
+     = B + D + E + O
+
+L[A] = A + merge(L[B], L[C], BC)
+     = A + merge(BDEO, DFO, BC)
+     = A + B + merge(DEO, DFO, C)
+     = A + B + C + merge(DEO, DFO)
+     = A + B + C + D + merge(EO, FO)
+     = A + B + C + D + merge(EO, FO)
+     = A + B + C + D + E + F + O
+```
 
 # References
 - [Python Docs](https://docs.python.org/3/tutorial/classes.html)
