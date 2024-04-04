@@ -68,7 +68,11 @@ car2.drive()  # Output: Sedan is being driven
 ```
 
 ## Observer (Behavorial)
+Observer allows defining a subscription mechanism to notify multiple objects if an event takes place in the object they're observing.
+
+eg: Publisher maintains a list of users associated to it. As soon as the publisher gets hold of a new book, it will notify all users about the new book.
 
 # References
 - [Refactoring Guru](https://refactoring.guru/design-patterns)
 - [Factory](https://refactoring.guru/design-patterns/factory-method)
+- [Obersver](https://refactoring.guru/design-patterns/observer)

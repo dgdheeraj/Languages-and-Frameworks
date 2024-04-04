@@ -1,6 +1,6 @@
 # Apache Zookeeper
 
-## WHat is it?
+## What is it?
 ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications.
 Consensus algorithm running inside ZooKeeper - ZAB (Zookeeper atomic broadcast)
 
@@ -59,7 +59,7 @@ zk.delete("/my/favorite/node", recursive=True)
 ```
 
 ### Watchers
-Kazoo offers watch funcations on a node that gets triggered when a node or its children has changed
+Kazoo offers watch functions on a node that gets triggered when a node or its children has changed
 
 Watchers can be set in two different ways
 - The first is the style that Zookeeper supports by default for one-time watch events

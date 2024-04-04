@@ -35,6 +35,7 @@ Suppose you want to redirect traffic based on the path `/` and `/blog`
 ## S3
 
 Stands for Simple Storage Service
+- It's a data lake
 - It's an object storage service that provides scalability, availability, security and performance. 
 - Stores data as objects within buckets. `Object` is a file and metadata that describes the files. `Bucket` is a container for objects.
 - You create a bucket, specify name and region. Then you upload data to that bucket as objects in Amazon S3. Each object has a ket which is the unique identifier for object in the bucket. 

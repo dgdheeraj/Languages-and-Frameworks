@@ -80,7 +80,7 @@ Specify a custom port to which the port 80 in the container will map to
 - Base images: Images that have no parent image, usually images with an OS like ubuntu, busybox or debian.
 - Child images: Images that build on base images and add additional functionality.
 
-# Dockerfile
+## Dockerfile
 A text file that contains list of commands that docker client will run while creating an image
 
 Example file
